@@ -1,0 +1,103 @@
+*{ padding: 0;
+    margin: 0;
+}
+.main-banner{
+    display: flex;
+    background-color: red;
+    height: 77px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+}
+.menu-bg h2{
+    font-size: 38px;
+    font-weight: bold;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff ;
+    border-radius: 70%;
+    padding: 12px;
+}
+.search{
+    padding: 10px 150px;
+}
+.search input{
+    width: 404px;
+    height: 24px;
+    padding: 10px;
+}
+.fa-brands{
+    color:#fff;
+    font-size: 30px;
+}
+.fa-solid{
+    margin-left: -30px;
+    color: red;
+}
+.services{
+    display: flex;
+}
+.services p{
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-right: 32px;
+}
+.buy-wpp{
+    display: flex;
+    align-items: center;
+}
+.buy-wpp p{
+    color: #fff;
+    font: 16px;
+    padding-right: 32px;
+}
+.fa-headset{
+    color:#fff;
+    font-size: 30px;
+}
+.welcome p{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 8px;
+    padding: 8px;
+}
+.fa-circle-user{
+    color: #fff;
+    font-size: 34px;
+    padding-right: 32px;
+}
+.fa-heart{
+    color: #fff;
+    font-size: 34px;
+}
+.fa-bag-shopping{
+    color: #fff;
+    margin: 8px;
+    font-size: 34px;
+}
+/*nav*/
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    padding: 20px 20px;
+}
+.menu li{
+    border: 2px solid black ;
+    padding: 42px;
+    font-size: 23px;
+}
+.red-list{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
