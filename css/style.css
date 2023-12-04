@@ -216,7 +216,7 @@
 .fa-clock-rotate-left {
     color: black;
     font-size: 65px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .card-frete-two h3 {
@@ -281,6 +281,7 @@
     color: white;
     font-size: 72px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .card-frete-four h3 {
@@ -291,4 +292,34 @@
 
 .card-frete-four {
     display: flex;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    position: relative;
+    cursor: pointer;
+}
+.banner img{
+    width: 100%;
+}
+.fa-arrow-left{
+    background-color: rgba(128, 128, 128, 0.685);
+    color: #fff;
+    width: 16px;
+    padding: 12px;
+    position: absolute;
+    left: 2%;
+    text-align: center;
+    bottom: 50%;
+}
+.fa-arrow-right{
+    background-color: rgba(128, 128, 128, 0.685);
+    color: #fff;
+    width: 16px;
+    padding: 12px;
+    position: absolute;
+    right: 0.4%;
+    text-align: center;
+    bottom: 50%;
 }
