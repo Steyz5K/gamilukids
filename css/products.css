@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-banner {
+    display: flex;
+    background-color: red;
+    height: 77px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menu-bg h2 {
+    font-size: 38px;
+    font-weight: bold;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 70%;
+    padding: 12px;
+}
+
+.search {
+    padding: 10px 150px;
+}
+
+.search input {
+    width: 404px;
+    height: 24px;
+    padding: 10px;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 30px;
+}
+
+.fa-solid {
+    margin-left: -30px;
+    color: red;
+}
+
+.services {
+    display: flex;
+}
+
+.services p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-left: 8px;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.buy-wpp {
+    display: flex;
+    align-items: center;
+}
+
+.buy-wpp p {
+    color: #fff;
+    font: 16px;
+    padding-right: 32px;
+    padding-left: 6px;
+}
+
+.fa-headset {
+    color: #fff;
+    font-size: 30px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.welcome p {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 8px;
+    padding: 8px;
+}
+
+.fa-circle-user {
+    color: #fff;
+    font-size: 34px;
+    padding-right: 32px;
+}
+
+.fa-heart {
+    color: #fff;
+    font-size: 34px;
+}
+
+.fa-bag-shopping {
+    color: #fff;
+    margin: 8px;
+    font-size: 34px;
+}
+
+/*nav*/
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-left: 120px;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    padding-right: 500px;
+    margin: 0 auto;
+    padding-left: 34px;
+}
+
+.menu ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+.menu li {
+    padding: 28px;
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+.menu li a {
+    text-decoration: none;
+
+}
+
+.red-list {
+    color: red;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding-right: 210px;
+    padding-top: 10px;
+    width: 10%;
+    padding-bottom: 96px;
+}
+
+.location input {
+    width: 138px;
+    height: 23px;
+}
+
+.fa-map-location-dot {
+    color: black;
+    padding-right: 8px;
+}
+
+.space-menu {
+    display: flex;
+}
+
+.space-menu ul {
+    display: flex;
+}
+
+.space-menu li {
+    color: #575353;
+    padding: 10px;
+    list-style: none;
+}
+
+.space-menu li a {
+    color: #575353;
+}
+
+.blonde {
+    background-color: #9d9797cc;
+    width: 666px;
+    position: relative;
+}
+.blonde-one{
+    position: absolute;
+}
+.blonde-one img {
+    border: 2px solid red;
+    width: 510px;
+    background-color: gray;
+}  
+
+.blonde-two{
+    position: absolute;
+}
+.blonde-two img {
+    position: relative;
+    border: 2px solid black;
+    width: 72px;
+    height: 96px;
+    bottom: 470px;
+}
+.blonde-three{
+    position: absolute;
+}
+.blonde-three img{
+    position: absolute;
+    width: 72px;
+    height: 96px;
+    bottom:-25;
+}
