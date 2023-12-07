@@ -246,6 +246,8 @@ body {
 
 .price h3 {
     text-align: center;
+    left: 28%;
+    position: absolute;
 }
 
 .price {
@@ -255,14 +257,14 @@ body {
 
 .price i {
     color: red;
-    padding-left: 15px;
+    padding-left: 47px;
     font-size: 35px;
 }
 
 .share i {
     position: absolute;
     top: 290px;
-    left: 1025px;
+    left: 52%;
     font-size: 35px;
 }
 
@@ -275,8 +277,8 @@ body {
     width: 28px;
     height: 54px;
     position: absolute;
-    top: 278px;
-    left: 580px;
+    top: 30%;
+    left: 31%;
 }
 
 .star-yellow2 i {
@@ -284,8 +286,8 @@ body {
     width: 28px;
     height: 54px;
     position: absolute;
-    top: 278px;
-    left: 600px;
+    top: 30%;
+    left: 32%;
 }
 
 .star-yellow3 i {
@@ -293,8 +295,8 @@ body {
     width: 28px;
     height: 54px;
     position: absolute;
-    top: 278px;
-    left: 620px;
+    top: 30%;
+    left: 33%;
 }
 
 .star-gray i {
@@ -302,8 +304,8 @@ body {
     width: 28px;
     height: 54px;
     position: absolute;
-    top: 278px;
-    left: 640px;
+    top: 30%;
+    left: 34%;
 }
 
 .star-gray2 i {
@@ -311,8 +313,8 @@ body {
     width: 28px;
     height: 54px;
     position: absolute;
-    top: 278px;
-    left: 660px;
+    top: 30%;
+    left: 35%;
     display: flex;
 }
 
@@ -326,16 +328,16 @@ body {
 
 .price-clothers h3 {
     font-size: 25px;
-    bottom: 440px;
-    left: 555px;
+    bottom: 62%;
+    left: 28%;
     position: absolute;
 }
 
 .price-clothers p {
     font-size: 22px;
     color: black;
-    bottom: 410px;
-    left: 555px;
+    bottom: 59%;
+    left: 28%;
     position: absolute;
 }
 
@@ -467,11 +469,67 @@ body {
     top: 0px;
     left: 5px;
 }
+
 .form-frete2 span {
     font-family: Roboto;
     font-size: 18px;
     color: red;
 }
-.form-frete2 p{
+
+.form-frete2 p {
     margin-top: 10px;
+}
+
+.form-frete2 {
+    top: 66%;
+    left: 30%;
+}
+
+.final-image {
+    display: flex;
+    top: 89%;
+    position: absolute;
+}
+
+.clother-one {
+    background-color: rgb(157, 151, 151, 0.2);
+    left: 105%;
+    top: 10%;
+    position: absolute;
+    width: 106px;
+    height: 103px;
+}
+
+.clother-two {
+    background-color: rgb(157, 151, 151, 0.2);
+    left: 200%;
+    top: 10%;
+    position: absolute;
+    width: 106px;
+    height: 103px;
+}
+
+.clother-two img {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.paragraph-final p {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    background: red;
+    align-items: center;
+    height: 200px;
+}
+.footer p{
+    text-align: center;
+    font-size: 2.25em;
+    color:#fff;
+    margin: 0 auto;
 }
